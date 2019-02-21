@@ -10,8 +10,56 @@
 
 <body>
   <h1>JavaScript Test</h1>
+  <div class="container-fluid">
+    <h1>Hello World!</h1>
+    <p>Resize the browser window to see the effect.</p>
+    <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>
+    <div class="row">
+      <div class="col-sm-4" style="background-color:lavender;"> <button class="btn success" onclick="getNumber(7)" >7</button> <button class="btn success" onclick="getNumber(8)" >8</button> <button class="btn success" onclick="getNumber(9)" >9</button> <button class="btn success" onclick="AC()" >AC</button> </div>
+      <div class="col-sm-4" style="background-color:lavenderblush;"> <button class="btn success" onclick="getNumber(4)" >4</button> <button class="btn success" onclick="getNumber(5)" >5</button> <button class="btn success" onclick="getNumber(6)" >6</button> <button class="btn success" onclick="mult()" >*</button> <button class="btn success" onclick="div()" >/</button> </div>
+      <div class="col-sm-4" style="background-color:lavender;"> <button class="btn success" onclick="getNumber(1)" >1</button> <button class="btn success" onclick="getNumber(2)" >2</button> <button class="btn success" onclick="getNumber(3)" >3</button> <button class="btn success" onclick="add()" >+</button> <button class="btn success" onclick="subt()" >-</button> </div> 
+      <div class="col-sm-4" style="background-color:lavenderblush;"> <button class="btn success" onclick="getNumber(0)" >0</button> <button class="btn success">^x</button> <button class="btn success">Ans</button> <button class="btn success">=</button> </div>
+    </div>
+  </div>
+  
 
-  <button class="btn success">Success</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-*-*"></div>
+      <div class="col-*-*"></div>
+    </div>
+    <div class="row">
+      <div class="col-*-*"></div>
+      <div class="col-*-*"></div>
+      <div class="col-*-*"></div>
+    </div>
+    <div class="row">
+      ...
+    </div>
+  </div>
+
+
+
+
+
+  
+  <button class="btn success">0</button>
+  <button class="btn success">1</button>
+  <button class="btn success">2</button>
+  <button class="btn success">3</button>
+  <button class="btn success">4</button>
+  <button class="btn success">5</button>
+  <button class="btn success">6</button>
+  <button class="btn success">7</button>
+  <button class="btn success">8</button>
+  <button class="btn success">9</button>
+  <button class="btn success">=</button>
+  <button class="btn success">+</button>
+  <button class="btn success">-</button>
+  <button class="btn success">/</button>
+  <button class="btn success">*</button>
+  <button class="btn success">^2</button>
+
 
   <script src="app.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
