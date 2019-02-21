@@ -43,3 +43,5 @@ function div(){
 function AC(){
     console.clear();
 }
+
+
